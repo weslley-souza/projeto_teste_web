@@ -9,16 +9,11 @@ Resource   variaveis_cadastro.robot
 Que estou na home "amazon.com.br"
     Title Should Be   ${TITULO}
     Capture Page Screenshot
-    
-
 
 Acesso a pagina "Criar conta"
-    Go To              ${URL_CRIAR_CONTA}    
-    Title Should Be    Registro na Amazon
+    Botão Login        ${BTN_LOGIN}     
+    Botão criar conta  ${BTN_CRIR_CONTA}
   
-    
-
-
 insiro os dados email e senha
     Inserir email    ${DADOS_USUARIO.email}  
     Inserir senha    ${DADOS_USUARIO.senha}
@@ -41,25 +36,25 @@ Insiro os dados nome email e senha
     Inserir email    ${DADOS_USUARIO.email}    
     Inserir senha    ${DADOS_USUARIO.senha}
 
-
 Insiro o dado email inválido
     Inserir nome     ${DADOS_USUARIO.nome}   
-    Inserir email    ${INVALIDOS.email}    
+    Inserir email    ${DADOS_INVALIDOS.email}    
     Inserir senha    ${DADOS_USUARIO.senha}
     Checar senha     ${DADOS_USUARIO.senha}
     Clicar botao     ${BOTAO_CONTINUE}
 
 Insiro o dado senha inválido
     Inserir nome     ${DADOS_USUARIO.nome}   
-    Inserir email    ${INVALIDOS.email}    
+    Inserir email    ${DADOS_INVALIDOS.email}    
     Inserir senha    ${DADOS_USUARIO.senha}
     Checar senha     ${DADOS_USUARIO.senha}
     Clicar botao     ${BOTAO_CONTINUE}
+    
 Insiro o dado senha diferentes
     Inserir nome     ${DADOS_USUARIO.nome}
-    Inserir email    ${INVALIDOS.email}
+    Inserir email    ${DADOS_INVALIDOS.email}
     Inserir senha    ${DADOS_USUARIO.senha}
-    Checar senha     ${INVALIDOS.senha}
+    Checar senha     ${DADOS_INVALIDOS.senha}
     Clicar botao     ${BOTAO_CONTINUE}
 
 A mensagem de erro deve ser exibida
