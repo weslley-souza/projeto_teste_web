@@ -1,5 +1,6 @@
 *** Settings ***
-Documentation          Essa suíte verifica o site da amazon.com.br/
+Documentation          Essa Suite Pesquisa, adiciona e remove um produto 
+...                    do carrinho do site amazon.com.br
 Resource               ../resources/base_teste.robot
 Test Setup             Abrir Navegador
 Test Teardown          Fechar Navegador
