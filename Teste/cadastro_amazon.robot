@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Essa suite verifica a tomada de decisão ao tentar cadastrar 
+Documentation    Essa suite verifica o comportamento ao tentar cadastrar 
 ...              usuarios no site amazon.com.br com dados em branco ou inválidos
 Resource           ../resources/base_teste.robot 
 Test Setup         abrir navegador 
