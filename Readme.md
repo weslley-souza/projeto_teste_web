@@ -12,11 +12,11 @@ Olá! Esse é meu primeiro Projeto realizando testes com RobotFramework
 
     -d -> Para Guardar Resultados do Teste na pasta resultados
 
-    -i -> Para Executar testes expecificos utilizando "TAGS" -> -i login
+    -i -> Para Executar testes expecificos utilizando "TAGS" -> -i nome
     EX : robot -d ../resultados -i nome  .\cadastro_amazon.robot
 
-    -e -> Para não executar testes com uma "TAG" especifica ->  -e cadastro
-    EX : robot -d ../resultados -i nome  .\cadastro_amazon.robot
+    -e -> Para não executar testes com uma "TAG" especifica ->  -e email
+    EX : robot -d ../resultados -e email  .\cadastro_amazon.robot
 
     -v -> para setar uma variável no momento da execução do teste
     EX : robot -v Browser:Firefox  -d ../resultados -i nome  .\cadastro_amazon.robot

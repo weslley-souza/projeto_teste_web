@@ -8,7 +8,7 @@ Test Teardown      fechar navegador
 
 *** Test Cases ***
 
-Canario 01: Realizar cadastro com campo "Nome" vazio
+Canario 01: Realizar cadastro com campo "Nome" vazio 
     [Tags]    nome
     Given Que estou na home "amazon.com.br"
     And Acesso a pagina "Criar conta"     
