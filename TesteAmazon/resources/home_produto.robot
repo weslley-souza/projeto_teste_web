@@ -42,11 +42,10 @@ Verificar se aparece a categoria "Dispositivos Amazon e Acessórios"
 # TESTE 2
 
 Digitar o nome do produto "${Item}" no campo de pesquisa
-    Input Text                     ${HOME_ID_PESQUISA.campo}    ${Item}
-
+    Input Text                        ${HOME_ID_PESQUISA.campo}    ${Item}
 
 Clicar no botão de pesquisa
-    Click Button                   ${HOME_ID_PESQUISA.botao}
+    Click Button                      ${HOME_ID_PESQUISA.botao}
     
 
 
