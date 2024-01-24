@@ -12,7 +12,7 @@ Canario 01: Verificar mensagem de erro ao tentar cadastrar com campo "Nome" vazi
     [Tags]    nome
     Given Que estou na página "Criar conta" do site "amazon.com.br" 
     When Preencho os campos obrigatorios exceto o campo "Nome"                         
-    Then A mensagem de erro "Insira seu nome" deve ser exibida  
+    Then A mensagem de erro "Insira seu nomee" deve ser exibida  
 
 Canario 02: Verificar mensagem de erro ao tentar cadastrar com campo "e-mail" vazio
     [Tags]    email

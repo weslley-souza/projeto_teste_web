@@ -11,7 +11,7 @@ Test Teardown          Fechar Navegador
 Caso de teste 01 - Acesso ao menu "Ofertas do Dia"
     [Tags]             menus    categoria                
     Acessar a home do site Amazon.com.br
-    Verificar se o título da página fica "Amazon.com.br | Tudo pra você, de A a Z."
+    Verificar se o título da página fica "Amazon.com.br | Tudo pra você, de A a Z.."
     Acessar o menu "Ofertas do Dia"
     Verificar se aparece a frase "Ofertas e Promoções" 
     Verificar se o título da página fica "Ofertas e Promoções | Amazon.com.br" 

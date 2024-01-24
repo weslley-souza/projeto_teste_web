@@ -10,6 +10,7 @@ ${HOME_TITULO}               //title[contains(.,'Amazon.com.br | Tudo pra você,
 ${HOME_CATEGORIA}            //a[contains(.,'Dispositivos Amazon e Acessórios')] 
 &{HOME_ID_PESQUISA}          campo=twotabsearchtextbox    botao=nav-search-submit-button
 ${HOME_PRODUTO}              //img[contains(@alt,'Console Xbox Series S')]
+${BROWSER}     chrome
 
 
 

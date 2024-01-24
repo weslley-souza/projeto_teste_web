@@ -8,6 +8,7 @@ ${CARRINHO_ID_ADC}       add-to-cart-button
 ${CARRINHO_BOTAO}        //a[contains(@data-csa-c-type,'button')]
 ${Delete_Item}           //input[contains(@value,'Excluir')]
 ${Carrinho_Vazio}        Seu carrinho de compras da Amazon está vazio.
+${BROWSER}     chrome
 
 
 
