@@ -7,6 +7,7 @@ Olá! aqui, eu faço dois testes. O primeiro acompanhando o curso "Automação d
 
 
     2° CADASTRO_AMAZON
+    
         Neste teste Verifico como o software se comporta ao tentar realizar cadastro inserindo dados inválidos.
 
        
