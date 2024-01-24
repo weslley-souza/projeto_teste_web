@@ -8,8 +8,7 @@ Resource   variaveis_cadastro.robot
 
 Que estou na página "Criar conta" do site "amazon.com.br"                
     Acessar a page "Criar conta"
-    Title Should Be                   ${TITULO}
-    Wait Until Element Is Visible     ${TITULO}    
+    Title Should Be                   ${TITULO} 
       
   
 Preencho os campos obrigatorios exceto o campo "Nome"

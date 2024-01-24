@@ -8,7 +8,7 @@ ${HOME_CRIAR_CONTA}    https://www.amazon.com.br/ap/register?showRememberMe=true
 &{DADOS_INVALIDOS}     senha=a1b2c           email=teste.wesly@gmail        
 ${TITULO}              Registro na Amazon
 &{CAMPO}               nome=ap_customer_name    email=ap_email  senha=ap_password    check=ap_password_check
-${BOTAO}               continuee
+${BOTAO}               continue
 
 
 *** Keywords ***   
