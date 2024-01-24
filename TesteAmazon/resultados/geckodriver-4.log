@@ -1,0 +1,25 @@
+1705671790791	geckodriver	INFO	Listening on 127.0.0.1:50983
+1705671793832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5098 ...  "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Weslley\\AppData\\Local\\Temp\\rust_mozprofileVqwS4o"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705671794442	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705671794578	Marionette	INFO	Listening on port 50991
+WebDriver BiDi listening on ws://127.0.0.1:50984
+Read port: 50991
+1705671794945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50984/devtools/browser/43602410-5e95-49b7-a3d2-2130e8d2e6fd
+JavaScript warning: https://www.amazon.com.br/, line 2183: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.com.br."
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81xk1hDaq+L.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705671804598	Marionette	INFO	Stopped listening on port 50991
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/31bJewCvY-L.js, line 7: Script terminated by timeout at:
+z@https://images-na.ssl-images-amazon.com/images/I/31bJewCvY-L.js:7:411
+
+Dynamically enable window occlusion 1

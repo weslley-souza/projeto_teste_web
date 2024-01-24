@@ -1,0 +1,39 @@
+1705765472712	geckodriver	INFO	Listening on 127.0.0.1:58853
+1705765475770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58854" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Weslley\\AppData\\Local\\Temp\\rust_mozprofilesgi53g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705765476264	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705765476541	Marionette	INFO	Listening on port 58861
+WebDriver BiDi listening on ws://127.0.0.1:58854
+Read port: 58861
+1705765477035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58854/devtools/browser/06348c6d-16b0-4b7f-a5d1-b212e2461e56
+JavaScript warning: https://www.amazon.com.br/, line 2192: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.amazon.com.br/deals?ref_=nav_cs_gb, line 3180: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705765486083	Marionette	INFO	Stopped listening on port 58861
+JavaScript warning: https://m.media-amazon.com/images/I/714+3hZjzaL.js, line 2449: Script terminated by timeout at:
+jh@https://m.media-amazon.com/images/I/714+3hZjzaL.js:2449:20
+Pj@https://m.media-amazon.com/images/I/714+3hZjzaL.js:6499:15
+di@https://m.media-amazon.com/images/I/714+3hZjzaL.js:4596:19
+Nj@https://m.media-amazon.com/images/I/714+3hZjzaL.js:4590:30
+sc@https://m.media-amazon.com/images/I/714+3hZjzaL.js:4575:11
+gf@https://m.media-amazon.com/images/I/714+3hZjzaL.js:4332:35
+$g/<@https://m.media-amazon.com/images/I/714+3hZjzaL.js:1875:22
+unstable_runWithPriority@https://m.media-amazon.com/images/I/41qDlz8InOL.js:437:20
+Za@https://m.media-amazon.com/images/I/714+3hZjzaL.js:1852:14
+$g@https://m.media-amazon.com/images/I/714+3hZjzaL.js:1872:13
+ja@https://m.media-amazon.com/images/I/714+3hZjzaL.js:1864:7
+bi@https://m.media-amazon.com/images/I/714+3hZjzaL.js:4368:36
+zd@https://m.media-amazon.com/images/I/714+3hZjzaL.js:5310:11
+M.hydrate@https://m.media-amazon.com/images/I/714+3hZjzaL.js:6780:14
+@data:text/javascript;charset=UTF-8,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20ReactDOM.hydrate(AdaptiveRenderer.default(%7B%22creativeInformation%22%3A%7B%22components%22%3A%5B%22Image%22%2C%22BuyBox%22%5D%2C%22variation%22%3A%22add-to-cart%22%2C%22productImg%22%3A%7B%22url%22%3A%22https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F51a98nkmbvL.jpg%22%7D%2C%22customImages%22%3A%7B%22square%22%3Anull%2C%22wide%22%3Anull%2C%22tall%22%3Anull%7D%2C%22headline%22%3A%22%22%2C%22productDescription%22%3A%22OFF!%20Off%20Repelente%20Kids%20Lo%C3%A7%C3%A3o%20117Ml%22%2C%22priceInformation%22%3A%7B%22price%22%3A17.84%2C%22fullPrice%22%3Anull%2C%22pricePerUnit%22%3A%22%22%7D%2C%22ratings%22%3A%7B%22stars%22%3A4.8%2C%22amount%22%3A2158%7D%2C%22disclaimer%22%3A%22%22%2C%22clickThroughInfo%22%3A%7B%22adLink%22%3A%22https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07FN91WHR%3Faref%3D0sietdapux%26aaxitk%3Da0184c2d8b21398dc37ad436f975d30e%26language%3Dpt_BR%26pd_rd_plhdr%3Dt%26smid%3DA1ZZFT5FULY4LN%26ref%3Ddacx_dp_578673443408023326_578379969926371212%22%2C%22buttonLink%22%3A%22https%3A%2F%2Fwww.amazon.com.br%2Fadvertising%2Fatc%3Faref%3D0sietdapux%26aaxitk%3Da0184c2d8b21398dc37ad436f975d30e%26language%3Dpt_BR%26ie%3DUTF8%26token%3D649E590C5C923E1A91923CE956B8B1EF1FE410D6%26time%3D1705765395266%26merchantId%3DA1ZZFT5FULY4LN%26asin%3DB07FN91WHR%26program%3Ddads%26adPrice%3D17.84%26offerListingId%3DYat1ggFJW8WNwFTPbMllT48Drx%25252FvbFM5ZUFuMI3VABdjJVNLqym%25252Fvbml2FU6LCvQnKM2ATIjudyspcckLf6r9ZhmEinIhlkXJxo5YDnExkJbiLwOOWCL6prIc8x1pQG1IaNtVHI%25252BSkIneNHNJj7XzHTjtkrv8Jpv%22%2C%22reviewLink%22%3A%22https%3A%2F%2Fwww.amazon.com.br%2Fproduct-reviews%2FB07FN91WHR%3Faref%3D0sietdapux%26aaxitk%3Da0184c2d8b21398dc37ad436f975d30e%26language%3Dpt_BR%22%2C%22impressionUrls%22%3A%5B%22%22%5D%2C%22clickUrls%22%3A%5B%22https%3A%2F%2Faax-us-iad.amazon.com%2Fx%2Fc%2FRAKEtjpM4rw2IIk8TgtG-XMAAAGNJ4u0pwEAAAIfAQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICArzNCC%2F%22%2C%22%22%5D%2C%22originUrlDomain%22%3A%22www.amazon%22%2C%22isExternalLink%22%3Afalse%2C%22isOffsite%22%3Afalse%7D%2C%22thirdPartyInfo%22%3A%7B%7D%2C%22dealBadge%22%3A%7B%7D%2C%22isPrimeEligible%22%3Afalse%2C%22eeBadge%22%3Afalse%2C%22promotion%22%3A%7B%22value%22%3A0%2C%22class%22%3A%22%22%2C%22type%22%3A%22%22%7D%2C%22border%22%3Atrue%2C%22releaseDate%22%3A%22%22%2C%22climatePledgeFriendly%22%3Afalse%7D%2C%22renderingContext%22%3A%7B%22deviceType%22%3A%22desktop%22%2C%22slotName%22%3A%22goldbox-ads%22%2C%22locale%22%3A%22BR%22%2C%22language%22%3A%22pt%22%2C%22slotSize%22%3A%7B%22width%22%3A980%2C%22height%22%3A55%7D%7D%7D)%2C%20document.getElementById('ad'))%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20:2:24
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

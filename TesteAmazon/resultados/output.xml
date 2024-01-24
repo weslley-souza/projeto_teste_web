@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-01-23T17:13:45.082589" rpa="false" schemaversion="5">
+<suite id="s1" name="Cadastro Amazon" source="D:\ProjetoAmazon\TesteAmazon\Teste\cadastro_amazon.robot">
+<test id="s1-t1" name="Canario 01: Verificar mensagem de erro ao tentar cadastrar com campo &quot;Nome&quot; vazio" line="11">
+<kw name="Abrir Navegador" owner="base_teste" type="SETUP">
+<kw name="Set Selenium Timeout" owner="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" start="2024-01-23T17:13:45.696588" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-23T17:13:45.697588" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<arg>about:blank</arg>
+<arg>headless${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-23T17:13:45.696588" elapsed="2.474525"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-01-23T17:13:48.171113" elapsed="0.122999"/>
+</kw>
+<status status="PASS" start="2024-01-23T17:13:45.695586" elapsed="2.598526"/>
+</kw>
+<kw name="Given Que estou na página &quot;Criar conta&quot; do site &quot;amazon.com.br&quot;" owner="kw_cadastro">
+<kw name="Acessar a page &quot;Criar conta&quot;" owner="variaveis_cadastro">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-01-23T17:13:48.296116" level="INFO">Opening url 'https://www.amazon.com.br/ap/register?showRememberMe=true&amp;openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fb%2F%3F_encoding%3DUTF8%26ie%3DUTF8%26node%3D19877613011%26pf_rd_p%3D14a7675e-d4d4-471a-8e31-9d15eaad92ee%26pd_rd_wg%3DFz3l1%26pf_rd_r%3D9Q5EF1M4H3X2BJXFVSZC%26content-id%3Damzn1.sym.14a7675e-d4d4-471a-8e31-9d15eaad92ee%26pd_rd_w%3DzB9ZS%26painterId%3Dmini-icon-scrolling-card%26pd_rd_r%3D766e047f-34fe-4a7d-bc03-805af372e836%26ref_%3Dnav_ya_signin&amp;prevRID=3NEXVRCXKY9K7QHDF8BE&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=brflex&amp;openid.mode=checkid_setup&amp;prepopulatedLoginId=&amp;failedSignInCount=0&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;pageId=brflex&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0'</msg>
+<arg>${HOME_CRIAR_CONTA}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-01-23T17:13:48.296116" elapsed="0.814996"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Criar conta</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-01-23T17:13:49.112113" elapsed="0.029001"/>
+</kw>
+<status status="PASS" start="2024-01-23T17:13:48.295112" elapsed="0.846002"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-01-23T17:13:49.150114" level="INFO">Page title is 'Registro na Amazon'.</msg>
+<arg>${TITULO}</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-01-23T17:13:49.141114" elapsed="0.009000"/>
+</kw>
+<status status="PASS" start="2024-01-23T17:13:48.295112" elapsed="0.855002"/>
+</kw>
+<kw name="When Preencho os campos obrigatorios exceto o campo &quot;Nome&quot;" owner="kw_cadastro">
+<kw name="Inserir nome" owner="variaveis_cadastro">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-23T17:13:49.154115" level="INFO">Typing text '' into text field 'ap_customer_name'.</msg>
+<arg>${CAMPO.nome}</arg>
+<arg>${nome}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-23T17:13:49.153117" elapsed="0.160997"/>
+</kw>
+<arg>${EMPTY}</arg>
+<status status="PASS" start="2024-01-23T17:13:49.151113" elapsed="0.163001"/>
+</kw>
+<kw name="Inserir email" owner="variaveis_cadastro">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-23T17:13:49.316115" level="INFO">Typing text 'teste.wesly@gmail.com' into text field 'ap_email'.</msg>
+<arg>${CAMPO.email}</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-23T17:13:49.315111" elapsed="0.249003"/>
+</kw>
+<arg>${DADOS_USUARIO.email}</arg>
+<status status="PASS" start="2024-01-23T17:13:49.314114" elapsed="0.250000"/>
+</kw>
+<kw name="Inserir senha" owner="variaveis_cadastro">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-23T17:13:49.566111" level="INFO">Typing text 'a1b2c3' into text field 'ap_password'.</msg>
+<arg>${CAMPO.senha}</arg>
+<arg>${senha}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-23T17:13:49.565111" elapsed="0.617002"/>
+</kw>
+<arg>${DADOS_USUARIO.senha}</arg>
+<status status="PASS" start="2024-01-23T17:13:49.564114" elapsed="0.617999"/>
+</kw>
+<kw name="Checar senha" owner="variaveis_cadastro">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-23T17:13:50.184112" level="INFO">Typing text 'a1b2c3' into text field 'ap_password_check'.</msg>
+<arg>${CAMPO.check}</arg>
+<arg>${checar_senha}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-23T17:13:50.183113" elapsed="0.159001"/>
+</kw>
+<arg>${DADOS_USUARIO.senha}</arg>
+<status status="PASS" start="2024-01-23T17:13:50.182113" elapsed="0.160001"/>
+</kw>
+<kw name="Clicar botao" owner="variaveis_cadastro">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-01-23T17:13:50.344113" level="INFO">Clicking button 'continue'.</msg>
+<arg>${botao}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-23T17:13:50.343116" elapsed="0.173999"/>
+</kw>
+<arg>${BOTAO}</arg>
+<status status="PASS" start="2024-01-23T17:13:50.342114" elapsed="0.176002"/>
+</kw>
+<status status="PASS" start="2024-01-23T17:13:49.151113" elapsed="1.367003"/>
+</kw>
+<kw name="Then A mensagem de erro &quot;Insira seu nome&quot; deve ser exibida" owner="kw_cadastro" source_name="A mensagem de erro &quot;${MSG_ERRO}&quot; deve ser exibida">
+<kw name="Mensagem de erro esperado" owner="variaveis_cadastro">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${mensagem_erro}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-01-23T17:13:50.519113" elapsed="0.029002"/>
+</kw>
+<arg>${MSG_ERRO}</arg>
+<status status="PASS" start="2024-01-23T17:13:50.519113" elapsed="0.029002"/>
+</kw>
+<status status="PASS" start="2024-01-23T17:13:50.519113" elapsed="0.029002"/>
+</kw>
+<kw name="Fechar Navegador" owner="base_teste" type="TEARDOWN">
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-01-23T17:13:50.909114" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-165.png"&gt;&lt;img src="selenium-screenshot-165.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-01-23T17:13:50.549112" elapsed="0.360002"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-01-23T17:13:50.910113" elapsed="2.153002"/>
+</kw>
+<status status="PASS" start="2024-01-23T17:13:50.549112" elapsed="2.514003"/>
+</kw>
+<tag>nome</tag>
+<status status="PASS" start="2024-01-23T17:13:45.694584" elapsed="7.369529"/>
+</test>
+<doc>Essa suite verifica o comportamento ao tentar cadastrar
+usuarios no site amazon.com.br com dados em branco ou inválidos</doc>
+<status status="PASS" start="2024-01-23T17:13:45.085584" elapsed="7.979530"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">nome</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Cadastro Amazon">Cadastro Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
